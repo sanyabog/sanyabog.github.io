@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport” content="width=device-width, initial-scale=1.0″>
+  <meta name="author" content="sasha">
+  <meta name="description" content="diplom">
+  <title> RelaxReserve </title>
+  <link rel="shortcut icon" href="img/iconn.png"/>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+    <!-- file:///C://Users//Alex//Desktop//kyrsach//index.html -->
+
+    <!-- http://127.0.0.1:5500/index.html -->
+<body>
+    <!-- -->
+    <!-- Шапка сайту (меню, логотип, заголовок,ін.) -->
+    <div class="header">
+        <div class="container">
+            <!-- Меню -->
+            <div class="header-line">
+                 <div class="header-logo">
+                    <a href="index.html"> <img src="img/iconn.png" alt=""> </a>
+                 </div>
+
+                 <div class="nav">
+                    <a class="nav-item" href="index.html">Головна</a>
+                    <a class="nav-item" href="baza.html">Бази відпочинку</a>
+                    <a class="nav-item" href="sanat.html">Санаторії</a>
+                    <a class="nav-item" href="cont.html">Контакти</a>
+                 </div>
+
+                 <div class="fext">
+
+                 <div class="phone">
+
+                   <div class="phone-holder">
+
+                     <div class="phoneimg">
+                           <img src="img/phone.png" alt="">
+                     </div>
+
+                    <div class="number"><a class="num" href="#">+380-988-78-78</a>
+                    </div>
+
+                   </div>
+
+                     <div class="phonetext">
+                        Зв'яжіться з нами
+                     </div>
+                 </div>
+
+                 <div class="btn">
+                  <button onclick="togglePopup()">Замовити дзвінок</button>
+                 </div>
+               </div>
+            </div>
+         </div>
+         
+<!-- Надпис -->
+<div class="overlay" onclick="togglePopup()"></div>
+<div class="popup" id="popup">
+   <form name="submit-to-google-sheet">
+   
+      
+          <legend class="leg">
+              Після відравки форми, ми вам зателефонуємо!
+          </legend>
+          <br>
+       
+          <label for="text1">
+              Мене звати:
+          </label>
+              <input type="text"  placeholder="Саша" name="text" required>
+          <br> <br>
+       
+        <label for="phone1">
+            Мій номер:
+        </label>
+            <input type="phone" placeholder="+380983777771" name="phone" required>
+        <br> <br>
+
+        <!-- <button type="reset" class="bbttnn">Очистити форму</button> -->
+        <button type="submit" class="bbttnn">Відправити форму</button>
+
+        <br><br><span id="sendText"></span>
+
+      </form>
+
+               
+</div>
+<!-- Надпис -->
+
+
+         <!-- Надпис -->
+
+        <div class="header-down">
+
+            <div class="header-title">
+               <span>Ласкаво просимо!</span>
+            </div>
+            
+            <div class="sub-title">
+               <span>
+               Почніть свою подорож до комфорту та релаксу вже сьогодні!</span>
+            </div>
+
+            <div class="aboutus">
+               <a class="aboutus1" href="#section1">- Детальніше -</a>
+            </div>
+
+        </div>
+
+
+        <!-- "Карточки"-->
+
+      <div class="header-block">
+
+         <a href="baza.html" class="ba3a">
+            <div class="ba3a-img">
+               <img class="ba3a-iimg" src="img/ba3a.png" width="200px" height="200px">
+            </div>
+
+            <div class="title-ba3a">
+               <span>Бази відпочинку</span>
+            </div>
+         </a>
+
+         <a href="sanat.html" class="sanat">
+            <div class="sanat-img">
+               <img class="sanat-iimg" src="img/sanator.png" width="200px" height="200px">
+            </div>
+
+            <div class="title-sanat">
+               <span>Санаторії</span>
+            </div>
+         </a>
+
+      </div>
+
+    </div>
+ <div class="info">
+
+   <div id="section1" class="Mtext1">
+      <h3> Чому потрібно відпочивати?</h3>
+   </div>
+   <div class="text1">
+      <p>ㅤ Відпочинок - це необхідна складова здорового та збалансованого способу життя. Нашому організму потрібен час для відновлення та відпочинку після тривалої фізичної або розумової активності. Відпочинок допомагає зберегти наше фізичне та психічне здоров'я, підвищує продуктивність, покращує настрій та знижує ризик стресу та вигорання. Відпочивши належним чином, ми заряджаємося новою енергією, покращуємо концентрацію та здатність до прийняття рішень, а також зміцнюємо наш імунітет. Тому важливо відводити час для відпочинку та релаксації, дозволяючи нашому тілу та мозку відновити баланс та готуватися до нових викликів.</p>
+   </div>
+
+   <div class="Mtext2">
+      <h3>Що таке база відпочинку? </h3>
+   </div>
+   <div class="text2">
+      <p>ㅤ База відпочинку - це заклад, який надає зручне та комфортабельне проживання для відпочиваючих. Зазвичай бази відпочинку розташовані в мальовничих місцях природи, таких як ліси, гори або поблизу водойм. Вони можуть включати в себе готельні номери, котеджі, кемпінги або інші види житла.</p>
+   </div>
+   <div class="text2">
+      <p>ㅤ Основна мета баз відпочинку - створити затишну та релаксуючу атмосферу для відпочиваючих, де вони можуть відпочити від щоденних звичайних справ, насолодитися природою та провести час з родиною чи друзями. Бази відпочинку можуть також надавати різноманітні розважальні, спортивні та культурні заходи, такі як екскурсії, велопрогулянки, риболовля, барбекю, концерти, спа-процедури та інше, щоб забезпечити різноманіття і задоволення для відпочиваючих.</p>
+   </div>
+
+
+   <div class="photo1">
+      <div class="slider-container">
+         <ul id="carousel">
+         <li><img src="imgslide/baz3.jpg" width="300px" height="300px"></li>
+         <li><img src="imgslide/baz2.jpg" width="300px" height="300px"></li>
+         <li><img src="imgslide/baz1.jpg" width="300px" height="300px"></li>
+         <li><img src="imgslide/baz4.jpg" width="300px" height="300px"></li>
+      </ul>
+   <button id="prevBtn" class="prev">&#10094;</button>
+   <button id="nextBtn" class="next">&#10095;</button>
+   </div>
+
+   </div>
+
+   <div class="Mtext3">
+      <h3>ㅤㅤЩо таке санаторій?</h3>
+   </div>
+   <div class="text3">
+      <p>ㅤ Санаторій - це спеціалізований заклад оздоровлення, який надає послуги з медичного лікування, відпочинку та реабілітації. Головною метою санаторіїв є збереження та відновлення здоров'я людей, які потребують покращення фізичного та психічного стану. Зазвичай санаторії розташовані в мальовничих природних місцях, де доступні природні лікувальні ресурси, такі як мінеральні джерела, повітря та клімат.</p>
+   </div>
+
+   <div class="text3">
+      <p>ㅤ Санаторій пропонує різноманітні медичні процедури та лікування, включаючи гідротерапію, фізіотерапію, лікувальні грязі, масаж, фітотерапію та інші методи, спрямовані на покращення здоров'я. Крім того, вони можуть надавати різноманітні розважальні та відпочинкові послуги для підтримки загального самопочуття та підвищення настрою відпочиваючих.</p>
+   </div>
+
+   <div class="photo1">
+      <div class="slider-container">
+         <ul id="carousel2">
+         <li><img src="imgslide/sanat1.jpg" width="300px" height="300px"></li>
+         <li><img src="imgslide/sanat2.jpg" width="300px" height="300px"></li>
+         <li><img src="imgslide/sanat3.jpg" width="300px" height="300px"></li>
+         <li><img src="imgslide/sanat4.jpg" width="300px" height="300px"></li>
+
+      </ul>
+   <button id="prevBtn2" class="prev">&#10094;</button>
+   <button id="nextBtn2" class="next">&#10095;</button>
+   </div>
+   </div>
+
+   <script src="script.js"></script>
+
+   <div class="Mtext4">
+      <h3>Про нас</h3>
+   </div>
+   <div class="text4">
+      <p>ㅤ Ми - команда ентузіастів, які віддані місії зробити ваше життя яскравішим та здоровішим! Ми знаходимося в постійному пошуку інноваційних способів привнести радість та комфорт у ваші щоденні рутини. Наша мета - створити середовище, де кожен може відчути себе як вдома, а кожен момент стає чарівним пригодою. Приєднуйтесь до нас у цьому захоплюючому подорожі до щасливіших та здорових втілення себе!</p>
+   </div>
+
+ </div>
+
+ <div class="podv">
+   <div class="podvimg">
+      <div class="inst">
+         <a href="https://www.instagram.com/"> <img src="img2/inst.png" alt="inst" title="Наш Instagram"> </a>
+      </div>
+
+      <div class="face">
+         <a href="https://www.facebook.com/?locale=uk_UA"> <img src="img2/face.png" alt="inst" title="Наш Facebook"> </a>
+      </div>
+
+      <div class="teleg">
+         <a href="https://web.telegram.org/k/"> <img src="img2/teleg.png" alt="inst" title="Наш Telegram"> </a>
+      </div>
+
+      <div class="viber">
+         <a href="https://www.whatsapp.com/download?lang=uk_UA"> <img src="img2/what.png" alt="inst" title="Наш Whatsapp"> </a>
+       </div>
+      </div>
+       <div class="bottom-text">&copy; 2024 bogodvidxxx. Всі права захищені.</div>
+
+ </div>
+</body>
+</html>

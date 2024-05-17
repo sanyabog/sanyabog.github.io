@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="sasha">
+  <meta name="description" content="diplom">
+  <title> Бази відпочинку </title>
+  <link rel="shortcut icon" href="img/iconn.png"/>
+  <link rel="stylesheet" href="css/baza.css">
+</head>
+    <!-- file:///C://Users//Alex//Desktop//kyrsach//index.html -->
+<body>
+    <!-- -->
+    <!-- Шапка сайту (меню, логотип, заголовок,ін.) -->
+    <body>
+      <!-- -->
+      <!-- Шапка сайту (меню, логотип, заголовок,ін.) -->
+      <div class="header">
+          <div class="container">
+              <!-- Меню -->
+              <div class="header-line">
+                   <div class="header-logo">
+                      <a href="index.html"> <img src="img/iconn.png" alt=""> </a>
+                   </div>
+  
+                   <div class="nav">
+                     <a class="nav-item" id="nuv1" href="index.html">Головна</a>
+                     <a class="nav-item" id="nuv2" href="baza.html">Бази відпочинку</a>
+                     <a class="nav-item" id="nuv3" href="sanat.html">Санаторії</a>
+                     <a class="nav-item" id="nuv4" href="cont.html">Контакти</a>
+                  </div>
+  
+                   <div class="fext">
+  
+                   <div class="phone">
+  
+                     <div class="phone-holder">
+  
+                       <div class="phoneimg">
+                             <img src="img/phone.png" alt="">
+                       </div>
+  
+                      <div class="number"><a class="num" href="#">+380-988-78-78</a>
+                      </div>
+  
+                     </div>
+  
+                       <div class="phonetext">
+                          Зв'яжіться з нами
+                       </div>
+                   </div>
+  
+                   <div class="btn">
+                    <button onclick="togglePopup()">Замовити дзвінок</button>
+                   </div>
+                 </div>
+              </div>
+           </div>
+    <!-- Надпис -->
+    <div class="overlay" onclick="togglePopup()"></div>
+    <div class="popup" id="popup">
+       <form name="submit-to-google-sheet">
+       
+          
+              <legend class="leg">
+                  Після відравки форми, ми вам зателефонуємо!
+              </legend>
+              <br>
+           
+              <label for="text1">
+                  Мене звати:
+              </label>
+                  <input type="text"  placeholder="Саша" name="text" required>
+              <br> <br>
+           
+            <label for="phone1">
+                Мій номер:
+            </label>
+                <input type="phone" placeholder="+380983777771" name="phone" required>
+            <br> <br>
+
+            <!-- <button type="reset" class="bbttnn">Очистити форму</button> -->
+            <button type="submit" class="bbttnn">Відправити форму</button>
+  
+            <br><br><span id="sendText"></span>
+
+          </form>
+
+                   
+    </div>
+    <!-- Надпис -->
+
+    <div class="filt">
+      <div class="textt">
+         <span> Відпочинок на узбережжі Одеської області </span>
+      </div>
+
+      <div class="texttt">
+         <span>Одеська область, розташована на крайньому південному заході країни, славиться своїми прекрасними пляжами та чистим морем. Краєвиди Чорного моря надихають на відпочинок та відновлення сил. М’який клімат та свіже морське повітря сприяють загальному самопочуттю.
+             Одеське узбережжя відоме своїми лікувальними грязями, термальними джерелами та мінеральними водами, що корисні при різних захворюваннях. Це чудове місце для відпочинку
+              та відновлення здоров'я, де можна насолодитися пляжним відпочинком, активною розвагою та відвідати цікаві туристичні місця.</span>
+      </div>
+
+      <div class="about">
+         <a class="about1" href="#section1">- ЦІНИ 2024 НА ВІДПОЧИНОК У ОДЕСЬКІЙ ОБЛАСТІ -</a>
+      </div>
+
+   </div>
+</div>
+
+<div class="fle" id="section1">
+
+         <div class="menu">
+            <div class="menutext">
+
+                <a href="bazapage/kuya.html" class="ba3a">«Куяльник»</a> 
+
+                <a href="bazapage/bilaaka.html" class="ba3a">«Біла акація»</a>
+
+                <a href="bazapage/sby.html" class="ba3a">«Одеса»</a> 
+
+                <a href="bazapage/lerma.html" class="ba3a">«Лермонтовський»</a> 
+
+                <a href="bazapage/problembaza.html" class="ba3a">«Maristella Club»</a> 
+
+                <a href="bazapage/problembaza.html" class="ba3a">«Аркадія»</a> 
+
+                <a href="bazapage/problembaza.html" class="ba3a">«Горького»</a> 
+
+                <a href="bazapage/problembaza.html" class="ba3a">«Зелений Мис»</a> 
+
+                <a href="bazapage/problembaza.html" class="ba3a">«Червоні Зорі»</a> 
+
+                <a href="bazapage/problembaza.html" class="ba3a">«Люстдорф»</a> 
+
+                <a href="bazapage/problembaza.html" class="ba3a">«Магнолія»</a> 
+
+                <a href="bazapage/problembaza.html" class="ba3a">«Молдова»</a> 
+
+            </div>
+         </div>
+         <div class="grid-container">
+
+            <div class="grid-item">
+            
+               <a href="bazapage/kuya.html" class="termstar">
+
+                  <div class="termstarimg">
+                     <img src="gridbaz/kuya.jpg" width="230px" height="170px" alt="">
+                  </div>
+
+                  <div class="que">
+                     <img src="img/rait1.png" width="110px" height="30px" alt="">  <span> 3.9 (77%) 39 голосів</span>
+                  </div>
+
+                  <div class="text1">
+                     База відпочинку «Куяльник» Одеса
+                  </div>
+
+                  <div class="prise">
+                     <span>Від <b>1200</b> грн.</span>
+                  </div>
+               </a>
+            </div>
+
+
+            <div class="grid-item">
+               <a href="bazapage/bilaaka.html" class="kd">
+
+                  <div class="kdimg">
+                     <img src="gridbaz/bila.jpg" width="230px" height="170px" alt="">
+                  </div>
+
+                  <div class="que">
+                     <img src="img/rait1.png" width="110px" height="30px" alt="">  <span> 4.1 (73%) 58 голосів</span>
+                  </div>
+
+                  <div class="text1">
+                     База відпочинку «Біла акація» Одеса
+                  </div>
+
+                  <div class="prise">
+                     <span>Від <b>1020</b> грн.</span>
+                  </div>
+               </a>
+            </div>
+
+            <div class="grid-item">
+               <a href="bazapage/sby.html" class="kz">
+
+                  <div class="kzimg">
+                     <img src="gridbaz/odes.jpg" width="230px" height="170px" alt="">
+                  </div>
+
+                  <div class="que">
+                     <img src="img/rait1.png" width="110px" height="30px" alt="">  <span> 4.3 (53%) 14 голосів</span>
+                  </div>
+
+                  <div class="text1">
+                     База відпочинку «Одеса» СБУ
+                  </div>
+
+                  <div class="prise">
+                     <span>Від <b>990</b> грн.</span>
+                  </div>
+               </a>
+            </div>
+
+            <div class="grid-item">
+               <a href="bazapage/lerma.html" class="sz">
+
+                  <div class="szimg">
+                     <img src="gridbaz/lerma.jpg" width="230px" height="170px" alt="">
+                  </div>
+
+                  <div class="que">
+                     <img src="img/rait1.png" width="110px" height="30px" alt="">  <span> 4.0 (68%) 75 голосів</span>
+                  </div>
+
+                  <div class="text1">
+                     База відпочинку «Лермонтовський» Одеса
+                  </div>
+
+                  <div class="prise">
+                     <span>Від <b>830</b> грн.</span>
+                  </div>
+               </a>
+            </div>
+
+            <div class="grid-item">
+               <a href="bazapage/problembaza.html" class="sin">
+
+                  <div class="sinimg">
+                     <img src="gridbaz/marsi.jpg" width="230px" height="170px" alt="">
+                  </div>
+
+                  <div class="que">
+                     <img src="img/rait1.png" width="110px" height="30px" alt="">  <span> 4.2 (48%) 25 голосів</span>
+                  </div>
+
+                  <div class="text1">
+                     База відпочинку «Maristella Club» Одеса
+                  </div>
+
+                  <div class="prise">
+                     <span>Від <b>2200</b> грн.</span>
+                  </div>
+                  </a>
+            </div>
+
+            <div class="grid-item">
+               <a href="bazapage/problembaza.html" class="vy">
+
+                  <div class="vyimg">
+                     <img src="gridbaz/arkad.jpg" width="230px" height="170px" alt="">
+                  </div>
+
+                  <div class="que">
+                     <img src="img/rait1.png" width="110px" height="30px" alt="">  <span> 4.1 (78%) 95 голосів</span>
+                  </div>
+
+                  <div class="text1">
+                     База відпочинку «Аркадія» Одеса
+                  </div>
+
+                  <div class="prise">
+                     <span>Від <b>990</b> грн.</span>
+                  </div>
+                  </a>
+            </div>
+
+            <div class="grid-item">
+               <a href="bazapage/problembaza.html" class="dz">
+
+                  <div class="dzimg">
+                     <img src="gridbaz/gork.jpg" width="230px" height="170px" alt="">
+                  </div>
+
+                  <div class="que">
+                     <img src="img/rait1.png" width="110px" height="30px" alt="">  <span> 4.0 (62%) 19 голосів</span>
+                  </div>
+
+                  <div class="text1">
+                     База відпочинку «Горького» Одеса
+                  </div>
+
+                  <div class="prise">
+                     <span>Від <b>850</b> грн.</span>
+                  </div>
+                  </a>
+            </div>
+
+            <div class="grid-item">
+               <a href="bazapage/problembaza.html" class="ib">
+
+                  <div class="ibimg">
+                     <img src="gridbaz/zel.jpg" width="230px" height="170px" alt="">
+                  </div>
+
+                  <div class="que">
+                     <img src="img/rait1.png" width="110px" height="30px" alt="">  <span> 4.4 (82%) 85 голосів</span>
+                  </div>
+
+                  <div class="text1">
+                     База відпочинку «Зелений Мис» Одеса
+                  </div>
+
+                  <div class="prise">
+                     <span>Від <b>280</b> грн.</span>
+                  </div>
+                  </a>
+            </div>
+
+            <div class="grid-item">
+               <a href="bazapage/problembaza.html" class="gt">
+
+                  <div class="gtimg">
+                     <img src="gridbaz/zori.jpg" width="230px" height="170px" alt="">
+                  </div>
+
+                  <div class="que">
+                     <img src="img/rait1.png" width="110px" height="30px" alt="">  <span> 4.0 (52%) 69 голосів</span>
+                  </div>
+
+                  <div class="text1">
+                     База відпочинку «Червоні Зорі» Одеса
+                  </div>
+
+                  <div class="prise">
+                     <span>Від <b>550</b> грн.</span>
+                  </div>
+                  </a>
+            </div>
+
+            <div class="grid-item">
+               <a href="bazapage/problembaza.html" class="bgv">
+
+                  <div class="bgvimg">
+                     <img src="gridbaz/lust.jpg" width="230px" height="170px" alt="">
+                  </div>
+
+                  <div class="que">
+                     <img src="img/rait1.png" width="110px" height="30px" alt="">  <span> 4.1 (45%) 35 голосів</span>
+                  </div>
+
+                  <div class="text1">
+                     База відпочинку «Люстдорф» Одеса
+                  </div>
+
+                  <div class="prise">
+                     <span>Від <b>870</b> грн.</span>
+                  </div>
+                  </a>
+            </div>
+
+            <div class="grid-item">
+               <a href="bazapage/problembaza.html" class="tp">
+
+                  <div class="tpimg">
+                     <img src="gridbaz/mong.jpg" width="230px" height="170px" alt="">
+                  </div>
+
+                  <div class="que">
+                     <img src="img/rait1.png" width="110px" height="30px" alt="">  <span> 3.6 (54%) 26 голосів</span>
+                  </div>
+
+                  <div class="text1">
+                     База відпочинку «Магнолія» Одеса
+                  </div>
+
+                  <div class="prise">
+                     <span>Від <b>520</b> грн.</span>
+                  </div>
+                  </a>
+            </div>
+
+            <div class="grid-item">
+               <a href="bazapage/problembaza.html" class="kp">
+
+                  <div class="kpimg">
+                     <img src="gridbaz/moldov.jpg" width="230px" height="170px" alt="">
+                  </div>
+
+                  <div class="que">
+                     <img src="img/rait1.png" width="110px" height="30px" alt="">  <span> 4.2 (24%) 13 голосів</span>
+                  </div>
+
+                  <div class="text1">
+                     База відпочинку «Молдова» Одеса
+                  </div>
+
+                  <div class="prise">
+                     <span>Від <b>600</b> грн.</span>
+                  </div>
+                  </a>
+            </div>
+
+          </div>
+</div>
+
+<a class="weatherwidget-io" href="https://forecast7.com/uk/46d4830d73/odessa-oblast/" data-label_1="Одеська область" data-theme="original" data-basecolor="#3f60bc" data-highcolor="#ffffff" >Одеська область</a>
+
+<div class="mmm">
+
+   <div class="meni">
+      <button id="btn1" class="cnp">Про бази відпочинку</button><br>
+      <button id="btn2" class="cnp">Дозвілля</button><br>
+      <button id="btn3" class="cnp">Як дістатись?</button><br>
+    </div>
+    
+    <div class="blokk">
+    <div id="content1" class="content">
+      <h3>Бази відпочинку на березі моря</h3>
+
+      <span>ㅤСеред курортів Одеської області широко використовуються природні ресурси для здоров'я та оздоровлення. Тут діють термальні джерела, мінеральні води, торф’яні грязі, озокерит (гірський віск), ропа (сольовий концентрат).</span>
+
+      <h4>Які профілактики захворювань проводять у базах відпочинку?</h4>
+
+      <span>У базах відпочинку Одеської області успішно проводять профілактику широкого спектру захворювань, серед яких:</span>
+
+      <ul class="image-list">
+         <li><img src="img/chek.png" alt="Значок"><b>Захворювання шлунково-кишкового тракту</b> – гастрит, гастродуоденіт, виразку, рефлюкс, порушення стільця</li>
+         <li><img src="img/chek.png" alt="Значок"><b>Патології печінки</b> – гепатит, наслідки інтоксикацій</li>
+         <li><img src="img/chek.png" alt="Значок"><b>Хвороби жовчного міхура</b> – холецистит, дискінезію</li>
+         <li><img src="img/chek.png" alt="Значок"><b>Серцево-судинні порушення</b> – ішемію, гіпертонію, атеросклероз</li>
+         <li><img src="img/chek.png" alt="Значок"><b>Неврологічні розлади</b> – невроз, хронічну втому</li>
+         <li><img src="img/chek.png" alt="Значок"><b>Та багато іншого..</b></li>
+      </ul>
+     
+      <span>Які методи використовують для профілактики?</span>
+
+      <h4>Комплексна профілактика у базах відпочинку включає ряд ефективних методів:</h4>
+
+      <ul class="image-list">
+         <li><img src="img/chek.png" alt="Значок">Регулярний прийом мінеральних вод</li>
+         <li><img src="img/chek.png" alt="Значок">Оздоровлення на гарячих джерелах</li>
+         <li><img src="img/chek.png" alt="Значок">Ванни, душі та інші процедури з мінеральною водою</li>
+         <li><img src="img/chek.png" alt="Значок">Грязьові обгортання, аплікації</li>
+         <li><img src="img/chek.png" alt="Значок">Озокеритолікування (терапія гірським воском)</li>
+         <li><img src="img/chek.png" alt="Значок">Спелеотерапію (перебування в соляній кімнаті)</li>
+      </ul>
+
+      <span>Профілактичні процедури поєднують з оздоровчою гімнастикою та дієтою, створюючи інтегрований підхід до здоров'я та оздоровлення.</span>
+
+         </div>
+
+
+    <div id="content2" class="content">
+      <h3>Як цікаво провести час?</h3>
+
+      <span>Кращі бази відпочинку в Одеській області пропонують багатогранні можливості для якісного і цікавого проведення відпочинку та розваг.
+      </span>
+
+      <h4>Спробуйте наступне:</h4>
+
+      <ul class="image-list1">
+         <li><img src="img/chek.png" alt="Значок"><b>🏞️Каскад водоспадів в Кілії </b> - відомий своєю величезною красою та мальовничими краєвидами. Це ідеальне місце для тих, хто любить активний відпочинок та фотографування.</li>
+         <li><img src="img/chek.png" alt="Значок"><b>🌊 Аквапарк "Пальміра" в Одесі</b> це оазис водних розваг для всієї родини. Тут ви зможете насолодитися купанням у басейнах, водними гірками та різноманітними атракціонами.</li>
+         <li><img src="img/chek.png" alt="Значок"><b>🏰 Замок у селищі Білгород-Дністровський</b>- це справжня культурна перлина. Збудований ще у середньовіччі, замок пропонує подорож у минуле та захопливі екскурсії.</li>
+         <li><img src="img/chek.png" alt="Значок"><b>🏰 Мисливський замок графа Шенборна.</b> Зберігся в первісному вигляді. Має своєрідну символічну архітектуру.</li>
+         <li><img src="img/chek.png" alt="Значок"><b>🏰 Замок Паланок.</b> Знаходиться на околиці Мукачева на Замковій горі. Є історичним пам’ятником військової <br> архітектури. На території діють музеї та виставки.</li>
+         <li><img src="img/chek.png" alt="Значок"><b>⛪Старовинну церкву Різдва Пресв. Богородиці.</b> Знаходиться в селі Пилипець біля річки Репінка. Це дерев’яна <br> церква, побудована без використання цвяхів.</li>
+         <li><img src="img/chek.png" alt="Значок"><b>🏖️ Пляжі Одеського півострова</b>відомі своєю чистотою та красою. Це ідеальні місця для занять спортом на воді, сонячних ванн та прогулянок вздовж берега.</li>
+         <li><img src="img/chek.png" alt="Значок"><b>🏝️ Острів Зміїний </b>це природний заповідник, де ви зможете насолодитися чудовими пейзажами, зануритися у світ дикої природи та спостерігати за життям різноманітних видів рослин і тварин.</li>
+      </ul>
+
+      <span class="span11">У списку популярних курортів Одеської області – смт Затока і Сергіївка (Білгород-Дністровський район), Чорноморськ (Одеський р-н), с. Грибівка (Овідіопольський р-н).</span> <br> <br>
+      <span class="span11">
+         ㅤ Бази відпочинку в Одеській області пропонують широкий спектр розваг та відпочинку для кожного смаку і віку. Від активного відпочинку на природі до культурних вражень та релаксації на пляжі - тут знайдете все необхідне для приємного і насиченого відпочинку.</span>
+   </div>
+
+    <div id="content3" class="content">
+      <h3>Як дістатись до Одеської області?</h3>
+ <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1398272.368363242!2d28.999096911139574!3d46.80429173297627!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c631819a8e1469%3A0x1f6bf068b57ed7c5!2z0J7QtNC10YHRjNC60LAg0L7QsdC70LDRgdGC0Yw!5e0!3m2!1suk!2sua!4v1714131048271!5m2!1suk!2sua" width="1110" height="690" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+      </div> 
+
+</div>
+
+<script src="baza.js"></script>
+
+<div class="podv">
+   <div class="podvimg">
+      <div class="inst">
+         <a href="https://www.instagram.com/"> <img src="img2/inst.png" alt="inst" title="Наш Instagram"> </a>
+      </div>
+
+      <div class="face">
+         <a href="https://www.facebook.com/?locale=uk_UA"> <img src="img2/face.png" alt="inst" title="Наш Facebook"> </a>
+      </div>
+
+      <div class="teleg">
+         <a href="https://web.telegram.org/k/"> <img src="img2/teleg.png" alt="inst" title="Наш Telegram"> </a>
+      </div>
+
+      <div class="viber">
+         <a href="https://www.whatsapp.com/download?lang=uk_UA"> <img src="img2/what.png" alt="inst" title="Наш Whatsapp"> </a>
+       </div>
+      </div>
+       <div class="bottom-text">&copy; 2024 bogodvidxxx. Всі права захищені.</div>
+
+ </div>
+
+
+</body>
+</html>

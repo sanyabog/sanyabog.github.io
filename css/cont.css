@@ -1,0 +1,694 @@
+body {
+    margin: 0px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(140, 197, 238);
+}
+
+html {
+            scroll-behavior: smooth;
+}
+
+.container {
+    margin: 0px 0px;
+    background-color:rgba(240, 248, 255, 0.798);
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.4);
+}
+
+.header-line {
+    margin: 0px 120px;
+    padding-top: 5px;
+    display: flex;
+    align-items: center;
+
+    justify-content: space-around;
+}
+
+.header {
+    background-image: url('bg4.jpg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.header-logo {
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+.header-logo img{
+    width: 60px;
+    height: 70px;
+}
+
+.nav-item {
+    color: #000000;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+    background-color:rgba(240, 248, 255, 0);
+    border-radius: 15px;
+    padding: 0px 7px;
+    margin-right: 25px;
+
+    transition: color 0.3s linear;
+    transition: background-color 0.5s linear;
+}
+
+.nav-item:hover {
+    border: 1px solid  rgba(52, 83, 210, 0.7);
+    border-radius: 15px;
+    color:rgb(255, 255, 255);
+    background-color: rgba(52, 83, 210, 0.7);
+
+}
+
+.num {
+    color: #000000;
+    text-decoration: none;
+    font-weight: 700;
+    
+    transition: color 0.3s linear;
+}
+
+.num:hover {
+    color:rgb(104, 198, 10);
+}
+
+.phone-text {
+    font-size: 700;
+    font-weight: 20px;
+    color: #000000;
+}
+
+.phone-holder {
+    display: flex;
+    align-items: center;
+    margin-right: 75px;
+}
+
+.fext {
+    display: flex;
+    align-items: center;
+}
+
+.btn button {
+    background-color: rgba(52, 83, 210, 0.7);
+    color: #fff;
+    text-decoration: none;
+    padding: 14px 18px;
+    font-weight: 700;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    transition: background-color 0.5s linear;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.4);
+}
+
+.btn button:hover {
+    background-color:  rgba(134, 159, 255, 0.948);
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffffef;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+
+    .leg{
+        font-size: 30px;
+    }
+
+    label{
+     margin-left: 29%;
+    }
+
+  }
+
+  .overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.597);
+  }
+
+.popup button{
+      margin-top: 1%;
+      height: 30px;
+      width: 200px;
+    margin-left: 35%;
+    transition: 0.5s;
+}
+
+.popup button:hover{
+    transform: scale(1.1);
+    background-color: rgb(83, 156, 9);
+    color: #fff;
+}
+
+#sendText{
+    text-align: center;
+    margin-left: 26%;
+}
+
+.button {
+    background-color: rgba(52, 83, 210, 0.7);
+    color: #fff;
+    text-decoration: none;
+    padding: 14px 18px;
+    font-weight: 700;
+
+    transition: background-color 0.2s linear;
+}
+
+.button:hover {
+    background-color:  rgba(134, 159, 255, 0.948);
+}
+
+
+
+.kart iframe {
+    width: 680px;
+    height: 380px;
+    border: none;
+}
+
+.maininf {
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 1410px;
+    height: 550px;
+    background-color: #ffffffcb;
+    border-radius: 20px;
+}
+
+.maininf h3 {
+    padding: 10px;
+    font-size: 30px;
+    color: #ffffff;
+    text-shadow: 0 2px 5px rgb(0, 0, 0);
+    text-align: center;
+    background-color: #8a8a8a;
+    border-radius: 20px;
+    margin: 10px -20px;
+}
+
+.maininf p {
+    padding-left: 20px;
+    font-size: 19px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    color: #313131;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.144);
+}
+
+
+.mainfo {
+    display: flex;
+}
+
+.info11 {
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+
+
+.locc{
+    display: flex;
+    align-items: center;
+}
+.locc img{
+    width: 40px;
+    height: 40px;
+}
+
+
+.graff{
+    display: flex;
+    align-items: center;
+}
+.graff img{
+    width: 40px;
+    height: 40px;
+}
+
+
+.telll{
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+.telll img{
+    width: 40px;
+    height: 40px;
+}
+
+.merez{
+    background-color: #ffffffb4;
+    border-radius: 10px;
+    padding: 2px;
+}
+
+.kart iframe{
+    border-radius: 20px;
+    padding-left: 30px;
+}
+
+
+ /*footer*/
+
+ .podv {
+    height: 80px;
+    margin: 1px 0px;
+    background:  rgba(66, 66, 228, 0.726);
+    }
+    
+    .podvimg {
+        display: flex;
+    }
+    
+    .inst {
+        margin-top: 10px;
+        margin-left: 42.5%;
+    
+        img{
+        width: 40px;
+        height: 40px;
+        }
+    }
+    
+    .face {
+        margin-left: 30px;
+        margin-top: 10px;
+        img{
+        width: 40px;
+        height: 40px;
+        }
+    }
+    
+    .teleg {
+        margin-left: 30px;
+        margin-top: 10px;
+        img{
+        width: 40px;
+        height: 40px;
+        }
+    }
+    
+    .viber {
+        margin-left: 30px;
+        margin-top: 10px;
+        img{
+        width: 40px;
+        height: 40px;
+        }
+    }
+    
+    .bottom-text {
+        margin-top: 5px;
+        color: #fff;
+        text-align: center;
+        font-size: 17px;
+    }
+
+
+
+    @media only screen 
+    and (device-width: 375px) 
+    and (device-height: 812px)   {
+      
+        .container {
+            margin: 0px 0px;
+            background-color:rgba(240, 248, 255, 0.798);
+            box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.4);
+        }
+        
+        .header-line {
+            height: 160px;
+            margin: 0px;
+            display: block;
+            align-items: center;
+        
+            justify-content: space-between;
+
+            
+        }
+        
+        .header {
+            background-image: url('bg4.jpg');
+            height: 100vh;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+        .header-logo {
+            margin-left: 5px;
+            margin-bottom: 0px;
+        }
+        
+        .header-logo img{
+            margin-top: 9%;
+            margin-left: 45.5%;
+            margin-bottom: 1%;
+            width: 42px;
+            height: 46px;
+        }
+        
+        
+        .nav{
+            height: 20px;
+        }
+
+
+        #nuv1 {
+            margin-left: 6px;
+        }
+
+        #nuv2 {
+            margin-right: -10px;
+            margin-left: -13px;
+
+        }
+
+        #nuv3 {
+            margin-right: -10px;
+            margin-left: 18px;
+        }
+
+        #nuv4 {
+            margin-right: -20px;
+            margin-left: 20px;
+        }
+
+        .nav-item {
+            color: #000000;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 13.5px;
+            background-color:rgba(240, 248, 255, 0);
+            padding: 0px 3px;
+            border: 1px solid  rgba(0, 0, 0, 0.241);
+        
+            transition: color 0.3s linear;
+            transition: background-color 0.5s linear;
+            
+        }
+        
+        .nav-item:hover {
+            border: 1px solid  rgba(52, 83, 210, 0.7);
+            color:rgb(255, 255, 255);
+            background-color: rgba(52, 83, 210, 0.7);
+        
+        }
+        
+        .num {
+            color: #000000;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 9.5px;
+            
+            transition: color 0.3s linear;
+        }
+        
+        .num:hover {
+            color:rgb(104, 198, 10);
+        }
+        
+        .phonetext {
+            font-size: 11px;
+            color: #000000;
+        }
+        
+        .phoneimg img {
+            width: 15px;
+            height: 15px;
+        }
+        
+        .phone-holder {
+            display: flex;
+            align-items: center;
+            margin-top: -5px;
+        }
+        
+        .btn button {
+            background-color:rgba(52, 83, 210, 0.7);
+            color: #fff;
+            text-decoration: none;
+            padding: 5px 7px;
+            font-weight: 700;
+            font-size: 11.6px;
+            border: none;
+            border-radius: 5px;
+            transition: background-color 0.5s linear;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.4);
+            margin-left: 0px;
+        }
+        
+        .btn button:hover {
+            background-color: rgba(134, 159, 255, 0.948);
+        }
+    
+    
+        .fext {
+            margin-left: 15%;
+            margin-top: 5%;
+            display: flex;
+            align-items: center;
+        }
+    
+    
+        
+    .popup {
+        width: 300px;
+        height: 180px;
+        display: none;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #ffffffef;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    
+        .leg{
+            margin-top: -10px;
+            font-size: 20px;
+            text-align: center;
+        }
+    
+        form input {
+            height: 15px;
+            width: 140px;
+        }
+    
+        label{
+         margin-left: 15%;
+         font-size: 10px;
+        }
+    
+      }
+    
+      .overlay {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.597);
+      }
+    
+    .popup button{
+        font-size: 9px;
+          height: 17px;
+          width: 140px;
+        margin-left: 27%;
+        margin-top: -20px;
+        transition: 0.5s;
+    }
+    
+    .popup button:hover{
+        transform: scale(1.1);
+        background-color: rgb(83, 156, 9);
+        color: #fff;
+    }
+    
+    #sendText{
+        text-align: center;
+        font-size: 10px;
+        margin-top: -100px;
+    }
+    
+
+
+    /* index */
+
+    .maininf {
+        margin-top: 50px;
+        margin-left: 0px;
+        width: 375px;
+        height: 550px;
+        background-color: #ffffffcb;
+        border-radius: 1px;
+    }
+    
+    .maininf h3 {
+        width: 375px;
+        font-size: 30px;
+        color: #ffffff;
+        text-shadow: 0 2px 5px rgb(0, 0, 0);
+        text-align: center;
+        background-color: #8a8a8a;
+        border-radius: 0px;
+
+    }
+    
+    .maininf p {
+        padding: 0px 10px;
+        font-size: 13px;
+        font-weight: 800;
+        letter-spacing: 1px;
+        color: #313131;
+        text-shadow: 0 2px 5px rgba(0, 0, 0, 0.144);
+        text-align: justify;
+    }
+    
+    
+    .mainfo {
+        display: block;
+    }
+    
+    .info11 {
+        padding-left: 0px;
+        padding-top: 0px;
+    }
+    
+    
+    
+    .locc{
+        display: flex;
+        align-items: center;
+    }
+    .locc img{
+        width: 40px;
+        height: 40px;
+    }
+    
+    
+    .graff{
+        display: flex;
+        align-items: center;
+        padding-left: 3px;
+    }
+    .graff img{
+        width: 40px;
+        height: 40px;
+        margin-right: 17px;
+    }
+    
+    
+    .telll{
+        display: flex;
+        align-items: center;
+        padding-top: 0px;
+        padding-bottom: 10px;
+    }
+    .telll img{
+        width: 40px;
+        height: 40px;
+        margin-right: 16px;
+        margin-left: 1px;
+    }
+    
+    .merez{
+        background-color: #ffffffb4;
+        border-radius: 10px;
+        padding: 2px;
+        margin-top: 20px;
+    }
+    
+    .kart iframe{
+        border-radius: 20px;
+        padding-left: 17px;
+        margin-top: 15px;
+    }
+    
+
+    .kart iframe {
+        width: 90%;
+        height: 30%;
+        border: none;
+    }
+
+    /*footer*/
+
+.podv {
+    height: 80px;
+    margin: 0px 0px;
+    background:  rgba(66, 66, 228, 0.726);
+    }
+    
+    .podvimg {
+        display: flex;
+    }
+    
+    .inst {
+        margin-top: 10px;
+        margin-left: 27%;
+    
+        img{
+        width: 32px;
+        height: 32px;
+        }
+    }
+    
+    .face {
+        margin-left: 15px;
+        margin-top: 10px;
+        img{
+            width: 32px;
+            height: 32px;
+        }
+    }
+    
+    .teleg {
+        margin-left: 15px;
+        margin-top: 10px;
+        img{
+            width: 32px;
+            height: 32px;
+        }
+    }
+    
+    .viber {
+        margin-left: 15px;
+        margin-top: 10px;
+        img{
+            width: 32px;
+            height: 32px;
+        }
+    }
+    
+    .bottom-text {
+        margin-top: 7px;
+        color: #fff;
+        text-align: center;
+        font-size: 15px;
+    }
+    
+
+
+}
