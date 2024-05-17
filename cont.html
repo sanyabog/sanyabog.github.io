@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="sasha">
+  <meta name="description" content="diplom">
+  <title> Контакти </title>
+  <link rel="shortcut icon" href="img/iconn.png"/>
+  <link rel="stylesheet" href="css/cont.css">
+</head>
+    <!-- file:///C://Users//Alex//Desktop//kyrsach//index.html -->
+<body>
+    <!-- -->
+    <!-- Шапка сайту (меню, логотип, заголовок,ін.) -->
+    <div class="header">
+        <div class="container">
+            <!-- Меню -->
+            <div class="header-line">
+                 <div class="header-logo">
+                    <a href="index.html"> <img src="img/iconn.png" alt=""> </a>
+                 </div>
+
+                 <div class="nav">
+                    <a class="nav-item" id="nuv1" href="index.html">Головна</a>
+                    <a class="nav-item" id="nuv2" href="baza.html">Бази відпочинку</a>
+                    <a class="nav-item" id="nuv3" href="sanat.html">Санаторії</a>
+                    <a class="nav-item" id="nuv4" href="cont.html">Контакти</a>
+                 </div>
+
+                 <div class="fext">
+
+                 <div class="phone">
+
+                   <div class="phone-holder">
+
+                     <div class="phoneimg">
+                           <img src="img/phone.png" width="23px" height="23px" alt="">
+                     </div>
+
+                    <div class="number"><a class="num" href="#">+380-988-78-78</a>
+                    </div>
+
+                   </div>
+
+                     <div class="phonetext">
+                        Зв'яжіться з нами
+                     </div>
+                 </div>
+
+                 <div class="btn">
+                  <button onclick="togglePopup()">Замовити дзвінок</button>
+                 </div>
+                 </div>
+            </div>
+         </div>
+
+         <!-- Надпис -->
+         <div class="overlay" onclick="togglePopup()"></div>
+         <div class="popup" id="popup">
+            <form name="submit-to-google-sheet">
+            
+               
+                   <legend class="leg">
+                       Після відравки форми, ми вам зателефонуємо!
+                   </legend>
+                   <br>
+                
+                   <label for="text1">
+                       Мене звати:
+                   </label>
+                       <input type="text"  placeholder="Саша" name="text" required>
+                   <br> <br>
+                
+                 <label for="phone1">
+                     Мій номер:
+                 </label>
+                     <input type="phone" placeholder="+380983777771" name="phone" required>
+                 <br> <br>
+
+                 <!-- <button type="reset" class="bbttnn">Очистити форму</button> -->
+                 <button type="submit" class="bbttnn">Відправити форму</button>
+       
+                 <br><br><span id="sendText"></span>
+
+               </form>
+
+                        
+         </div>
+         <!-- Надпис -->
+
+        <div class="maininf">
+            <h3>Контакти</h3>
+            <p>З радістю допоможемо вам у вирішенні важливих запитань. Просто зв'яжіться з нами будь-яким зручним способом і наші менеджери нададуть відповіді на всі ваші запитання.</p>
+        
+            <div class="mainfo">
+
+        <div class="info11">
+            <div class="locc">
+                <img src="img/loc.png" alt="">
+                <p class="text111">Адреса: </p> 
+                <p class="text112"> 82200, Україна, Трускавець, вулиця І. Мазепи 1</p>
+            </div>
+
+            <div class="graff">
+                <img src="img/graf.png" alt="">
+                <p class="text111">Графік роботи: </p>
+                <p class="text112"> Пн-Пт: 09:00-18:00</p>
+            </div>
+
+            <div class="telll">
+                <img src="img/tell.png" alt="">
+                <p class="text111">Відділ Бронювання: </p>
+                <p class="text112"> +380-988-78-78</p>
+            </div>
+
+            <div class="merez">
+                <p>Посилання на соціальні мережі знаходяться трішки нижче ⬇️  </p>
+            </div>
+
+
+        </div>
+
+       <div class="kart">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2602.4105678596015!2d23.5073567!3d49.287565199999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473a49a9813486ed%3A0x9272c9c62634bab4!2z0LLRg9C70LjRhtGPINCG0LLQsNC90LAg0JzQsNC30LXQv9C4LCAxLCDQotGA0YPRgdC60LDQstC10YbRjCwg0JvRjNCy0ZbQstGB0YzQutCwINC-0LHQu9Cw0YHRgtGMLCA4MjIwMA!5e0!3m2!1suk!2sua!4v1714553840080!5m2!1suk!2sua" loading="lazy" ></iframe>
+        </div>
+        
+
+        </div>
+
+        </div>
+
+
+
+    </div>
+
+    <script src="cont.js"></script>
+
+<div class="podv">
+   <div class="podvimg">
+      <div class="inst">
+         <a href="https://www.instagram.com/"> <img src="img2/inst.png" alt="inst" title="Наш Instagram"> </a>
+      </div>
+
+      <div class="face">
+         <a href="https://www.facebook.com/?locale=uk_UA"> <img src="img2/face.png" alt="inst" title="Наш Facebook"> </a>
+      </div>
+
+      <div class="teleg">
+         <a href="https://web.telegram.org/k/"> <img src="img2/teleg.png" alt="inst" title="Наш Telegram"> </a>
+      </div>
+
+      <div class="viber">
+         <a href="https://www.whatsapp.com/download?lang=uk_UA"> <img src="img2/what.png" alt="inst" title="Наш Whatsapp"> </a>
+       </div>
+      </div>
+       <div class="bottom-text">&copy; 2024 bogodvidxxx. Всі права захищені.</div>
+
+ </div>
+    </body>
+    </html>
